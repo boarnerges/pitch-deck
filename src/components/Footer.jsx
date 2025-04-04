@@ -1,21 +1,56 @@
 import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
+
+const slides = ["/", "/slide-two", "/slide-three"]; // Slide order
 
 const Footer = () => {
+  const location = useLocation();
+  const currentIndex = slides.indexOf(location.pathname);
+
+  const prevSlide = currentIndex > 0 ? slides[currentIndex - 1] : null;
+  const nextSlide =
+    currentIndex < slides.length - 1 ? slides[currentIndex + 1] : null;
+
   return (
-    <div className="bg-[#333333] py-4 ">
-      <div className="flex text-white text-sm font-thin text-base justify-center gap-2 align-center">
-        <p className="">Slide 1</p>
-        <p>Slide 2</p>
-        <p>Slide 3</p>
+    <div className="bg-[#333333] py-4">
+      {/* Slide Navigation */}
+      <div className="flex text-white text-sm font-thin text-base justify-center gap-4">
+        {slides.map((slide, index) => (
+          <NavLink
+            key={index}
+            to={slide}
+            className={({ isActive }) =>
+              isActive ? "text-[#0E93E8] font-semibold" : "text-white"
+            }
+          >
+            Slide {index + 1}
+          </NavLink>
+        ))}
       </div>
-      <div className="py-4 flex justify-center">
-        <p className="flex text-sm py-2 px-4 bg-[#0E93E8] w-fit rounded-xl font-thin text-center text-white justify-center items-center">
-          Next Slide
-        </p>
+
+      {/* Previous & Next Slide Buttons */}
+      <div className="py-4 flex justify-center gap-4">
+        {prevSlide && (
+          <NavLink
+            to={prevSlide}
+            className="py-2 px-4 border border-[#0E93E8] rounded-xl text-[#0E93E8] bg-white font-thin text-center"
+          >
+            Previous Slide
+          </NavLink>
+        )}
+        {nextSlide && (
+          <NavLink
+            to={nextSlide}
+            className="py-2 px-4 bg-[#0E93E8] rounded-xl text-white font-thin text-center"
+          >
+            Next Slide
+          </NavLink>
+        )}
       </div>
-      <div></div>
+
+      {/* Footer Copyright */}
       <p className="text-white font-thin text-xs text-center">
-        2025 Frontlett Virtualizing. All rights reserved.
+        © 2025 Frontlett Virtualizing. All rights reserved.
       </p>
     </div>
   );

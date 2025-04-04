@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,19 +45,19 @@ const Navbar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Slide 1
             </a>
             <a
-              href="#"
+              href="/slide-two"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Slide 2
             </a>
             <a
-              href="#"
+              href="/slide-three"
               className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
             >
               Slide 3
@@ -74,12 +75,33 @@ const Navbar = () => {
 
           {/* Desktop Navigation (Hidden on Mobile) */}
           <div className="hidden sm:flex justify-items-end space-x-1 xl:space-x-8 text-[12px] lg:text-sm xl:text-base">
-            <a href="#" className="font-semibold text-black ">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "font-semibold text-[#0E93E8]" : " text-black"
+              }
+            >
               Slide 1
-            </a>
-            <a href="#">Slide 2</a>
-            <a href="#">Slide 3</a>
-            <a href="#">SINC Micro Angel Network</a>
+            </NavLink>
+            <NavLink
+              to="/slide-two"
+              className={({ isActive }) =>
+                isActive ? "font-semibold text-[#0E93E8]" : "text-black"
+              }
+            >
+              Slide 2
+            </NavLink>
+            <NavLink
+              to="/slide-three"
+              className={({ isActive }) =>
+                isActive ? "font-semibold text-[#0E93E8]" : "text-black"
+              }
+            >
+              Slide 3
+            </NavLink>
+            <NavLink to="#" className="text-black">
+              SINC Micro Angel Network
+            </NavLink>
           </div>
         </div>
 
