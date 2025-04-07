@@ -49,7 +49,7 @@ const HeroSection = () => {
         <div className="flex-1 pt-12 px-6 flex flex-col">
           {/* Top navigation */}
           <nav className="mb-4">
-            <ul className="flex space-x-2 text-[9px]">
+            <ul className="flex space-x-2 text-[9px] lg:text-[8px]">
               <li className="text-blue-400 rounded-xl px-2 py-1 bg-[#5D9CEC1A] ">
                 Future of Work
               </li>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           </nav>
 
           {/* Main Content */}
-          <div className="flex-grow">
+          <div className=" bg-[rgba(210,215,235,0.1)] pr-[25px] flex flex-col mt-5 pb-[120px] rounded-tr-[70px] flex-grow">
             <h2 className="text-xl font-medium text-gray-800 mb-2">
               The World 1st
             </h2>
