@@ -60,7 +60,7 @@ const HeroSection = () => {
           </nav>
 
           {/* Main Content */}
-          <div className=" bg-[rgba(210,215,235,0.1)] pr-[25px] flex flex-col mt-5 pb-[120px] rounded-tr-[70px] flex-grow">
+          <div className=" bg-[rgba(210,215,235,0.1)] flex flex-col mt-5 pb-[120px] rounded-tr-[70px] flex-grow">
             <h2 className="text-xl font-medium text-gray-800 mb-2">
               The World 1st
             </h2>
