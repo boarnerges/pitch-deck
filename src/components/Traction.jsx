@@ -5,21 +5,21 @@ const Traction = () => {
   const milestone = [
     {
       type: "70% UI/UX design done",
-      avatar: "../public/logo/design-done.svg",
+      avatar: "/logo/design-done.svg",
 
       description: "User interface and experience design nearing completion.",
     },
 
     {
       type: "Phase 1 development started",
-      avatar: "../public/logo/development.svg",
+      avatar: "/logo/development.svg",
 
       description: "Core platform functionality under active development.",
     },
 
     {
       type: "Initial customer acquisition in progress",
-      avatar: "../public/logo/acquisition.svg",
+      avatar: "/logo/acquisition.svg",
 
       description: "Early adopters being onboarded to the platform.",
     },

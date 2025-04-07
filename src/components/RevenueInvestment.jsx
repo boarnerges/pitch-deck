@@ -15,7 +15,7 @@ const RevenueInvestment = () => {
       <div className="py-2 flex  gap-2">
         <button className="bg-[#0E93E8] px-5  md:px-6 flex  gap-2 items-center rounded-xl ">
           <p className="text-white text-xs sm:text-base">Invest from $100</p>
-          <img src="../public/arrow.svg" alt="" className="h-[16px] " />
+          <img src="/arrow.svg" alt="" className="h-[16px] " />
         </button>
         <button className="border border-[#0E93E8] text-[#0E93E8] px-5 py-1.5 md:px-3 text-xs sm:text-base  rounded-xl">
           Watch Video 2

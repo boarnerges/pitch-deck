@@ -5,21 +5,21 @@ const MarketSize = () => {
   const markets = [
     {
       type: "Massive Opportunity",
-      avatar: "../public/logo/growth.svg",
+      avatar: "/logo/growth.svg",
 
       description:
         "Over 50 million SMEs in Nigeria, with each SME likely needing up to 4 slots.",
     },
     {
       type: "Target Market",
-      avatar: "../public/logo/target.svg",
+      avatar: "/logo/target.svg",
 
       description:
         "Small to mid-sized businesses, startups, and enterprises seeking part-time talent.",
     },
     {
       type: "Scalable Growth",
-      avatar: "../public/logo/Customer.svg",
+      avatar: "/logo/Customer.svg",
 
       description:
         "High potential for rapid expansion across various industries and regions.",

@@ -9,7 +9,7 @@ const pricingOptions = [
     description:
       "Join our platform to maximize your earning potential while maintaining worklife balance.",
     color: "bg-blue-100",
-    logo: "../public/logo/phone.svg",
+    logo: "/logo/phone.svg",
   },
   {
     type: "Consultants/Advisors",
@@ -18,7 +18,7 @@ const pricingOptions = [
     description:
       "Join our platform to maximize your earning potential while maintaining worklife balance.",
     color: "bg-purple-100",
-    logo: "../public/logo/phone.svg",
+    logo: "/logo/phone.svg",
   },
   {
     type: "Digital Influencers",
@@ -27,7 +27,7 @@ const pricingOptions = [
     description:
       "Join our platform to maximize your earning potential while maintaining worklife balance.",
     color: "bg-green-100",
-    logo: "../public/logo/phone.svg",
+    logo: "/logo/phone.svg",
   },
 ];
 

@@ -31,7 +31,7 @@ const HeroSection = () => {
                   Invest from $100
                 </p>
                 <img
-                  src="../public/arrow.svg"
+                  src="/arrow.svg"
                   alt=""
                   className="h-[16px] lg:h-[8px] xl:h-[16px]"
                 />
@@ -97,7 +97,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hidden flex-2 lg:block max-w-3xl">
-          <img src="../public/Heropic.svg" alt="Hero Section" className="" />
+          <img src="/Heropic.svg" alt="Hero Section" className="" />
         </div>
       </div>
     </div>

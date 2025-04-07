@@ -33,7 +33,7 @@ const Business = () => {
   const technology = [
     {
       type: "Customer Segment",
-      avatar: "../public/logo/customer.svg",
+      avatar: "/logo/customer.svg",
 
       description:
         "SMEs, resources (employees, consultants, influencers), affiliates.",
@@ -41,7 +41,7 @@ const Business = () => {
 
     {
       type: "Value Propositions",
-      avatar: "../public/logo/value.svg",
+      avatar: "/logo/value.svg",
 
       description:
         "Budget-friendly hiring for companies, flexible work for resources.",
@@ -49,14 +49,14 @@ const Business = () => {
 
     {
       type: "Channels",
-      avatar: "../public/logo/channel.svg",
+      avatar: "/logo/channel.svg",
 
       description: "Digital marketing, affiliate program, invite-only model.",
     },
 
     {
       type: "Revenue Streams",
-      avatar: "../public/logo/revenue.svg",
+      avatar: "/logo/revenue.svg",
 
       description: "HR fee, platform fees, commissions, interest on deposits.",
     },

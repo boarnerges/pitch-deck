@@ -5,7 +5,7 @@ const Technology = () => {
   const technology = [
     {
       type: "Predictive Analytics Dashboard",
-      avatar: "../public/logo/analytics.svg",
+      avatar: "/logo/analytics.svg",
 
       description:
         "Data-driven insights to optimize resource allocation and performance tracking.",
@@ -13,14 +13,14 @@ const Technology = () => {
 
     {
       type: "Blockchain-Based Transparency System",
-      avatar: "../public/logo/blockchain.svg",
+      avatar: "/logo/blockchain.svg",
       description:
         "Secure, transparent record-keeping for all transactions and agreements.",
     },
 
     {
       type: "AI-Enhanced Resource Allocation Engine",
-      avatar: "../public/logo/ai.svg",
+      avatar: "/logo/ai.svg",
 
       description:
         "Smart matching of resources to companies based on skills, availability, and preferences.",
@@ -28,7 +28,7 @@ const Technology = () => {
 
     {
       type: "Universal Slot Management System (USMS)",
-      avatar: "../public/logo/slot.svg",
+      avatar: "/logo/slot.svg",
 
       description:
         "Comprehensive platform for managing time slots, scheduling, and resource allocation.",
