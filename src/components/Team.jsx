@@ -12,7 +12,7 @@ const Team = () => {
     {
       name: "David Ker",
       role: "Multimedia Head",
-      image: "//images/placeholder.svg",
+      image: "/images/placeholder.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
     {
