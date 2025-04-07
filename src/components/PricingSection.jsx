@@ -33,7 +33,7 @@ const pricingOptions = [
 
 const Pricing = () => {
   return (
-    <div className="py-12 px-6 bg-gray-50">
+    <div className="py-12 max-w-5xl mx-auto px-6 bg-gray-50">
       <h2 className="text-3xl font-bold text-center mb-6">
         Who Are Resources & What Do They Earn
       </h2>

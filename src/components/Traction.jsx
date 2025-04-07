@@ -26,7 +26,7 @@ const Traction = () => {
   ];
   return (
     <div>
-      <div className=" bg-gray-50 py-12 px-6">
+      <div className=" bg-gray-50 max-w-5xl mx-auto py-12 px-6">
         <h2 className="text-2xl  font-semibold text-center mb-6">Traction</h2>
         <Dash />
         <p className="font-thin text-base text-center mt-6 mb-6">

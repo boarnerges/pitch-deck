@@ -26,7 +26,7 @@ const WhyWeDiffer = () => {
     },
   ];
   return (
-    <div className="bg-gray-50 py-6 px-6">
+    <div className="bg-gray-50 max-w-5xl mx-auto py-12 px-6">
       <h2 className="text-2xl  font-semibold mb-6">Why We Differ</h2>
       <div className=" grid grid-cols-2 sm:grid-cols-3 gap-6 ">
         {forces.map((force, index) => (

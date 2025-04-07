@@ -31,7 +31,7 @@ const OtherPartners = () => {
     },
   ];
   return (
-    <div className="bg-gray-50 py-6 px-6">
+    <div className="bg-gray-50 max-w-5xl mx-auto py-12 px-6">
       <h2 className="text-2xl mb-6">Other Strategic Partners</h2>
       <div className=" grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 lg:grid-cols-3">
         {forces.map((force, index) => (

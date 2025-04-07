@@ -18,12 +18,12 @@ const ProductOverview = () => {
     },
   ];
   return (
-    <div className="bg-white py-6 px-6">
+    <div className="max-w-5xl mx-auto py-12 px-6">
       <h2 className="text-3xl py-4">Product Overview</h2>
       <div className=" sm:grid grid-cols-2 gap-4 lg:grid-cols-3">
         {overview.map((view, index) => (
           <div
-            className="bg-gray-50 px-4 py-4 shadow-md rounded-lg mt-4 sm:mt-0"
+            className="bg-gray-100 px-4 py-4 shadow-md rounded-lg mt-4 sm:mt-0"
             key={index}
           >
             <h3 className="py-2 text-base ">{view.title}</h3>

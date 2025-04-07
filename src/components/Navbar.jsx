@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white py-4 px-8 flex justify-between items-center relative">
+    <nav className="bg-white max-w-5xl mx-auto py-4 px-6 flex justify-between items-center relative">
       {/* Left Section - Logo */}
       <div className="flex items-center">
         <img
@@ -63,7 +63,7 @@ const Navbar = () => {
               Slide 3
             </a>
             <a
-              href="#"
+              href="/sinc"
               className="block px-4 py-2 text-small text-gray-700 hover:bg-gray-100"
             >
               SINC Micro Angel Network
@@ -99,7 +99,7 @@ const Navbar = () => {
             >
               Slide 3
             </NavLink>
-            <NavLink to="#" className="text-black">
+            <NavLink to="/sinc" className="text-black">
               SINC Micro Angel Network
             </NavLink>
           </div>

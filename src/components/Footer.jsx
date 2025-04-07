@@ -12,7 +12,7 @@ const Footer = () => {
     currentIndex < slides.length - 1 ? slides[currentIndex + 1] : null;
 
   return (
-    <div className="bg-[#333333] py-4">
+    <div className="bg-[#333333] border-t-1 border-gray-500 py-12">
       {/* Slide Navigation */}
       <div className="flex text-white text-sm font-thin text-base justify-center gap-4">
         {slides.map((slide, index) => (
@@ -47,6 +47,8 @@ const Footer = () => {
           </NavLink>
         )}
       </div>
+
+      <div className="border-gray-600 border-t-1  max-w-5xl mx-auto py-3"></div>
 
       {/* Footer Copyright */}
       <p className="text-white font-thin text-xs text-center">
