@@ -59,11 +59,11 @@ const Pricing = () => {
                 />
               </div>
             </div>
-            <h3 className="text-xl font-normal py-2 text-gray-800">
+            <h3 className="text-xl sm:text-sm font-normal py-2 text-gray-800">
               {option.type}
             </h3>
             <div className="bg-[#5D9CEC1A]  rounded-2xl py-[8px]">
-              <p className="text-[#0E93E8] px-2 text-xl font-bold mt-2">
+              <p className="text-[#0E93E8] px-2 text-xl sm:text-sm font-bold mt-2">
                 {option.price}
               </p>
               <p className="text-gray-600 mt-2 font-thin text-sm ">
