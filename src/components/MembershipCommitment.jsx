@@ -11,7 +11,7 @@ const membershipPoints = [
 
 export default function MembershipCommitment() {
   return (
-    <section className="bg-white py-12 px-6 max-w-5xl mx-auto">
+    <section id="membership" className=" bg-white py-12 px-6 max-w-5xl mx-auto">
       <div className="text-center mb-12">
         <span className="text-sm text-blue-600 font-medium bg-blue-100 px-3 py-1 rounded-full">
           Join Us

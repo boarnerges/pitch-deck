@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamContact = () => {
   return (
@@ -12,13 +13,13 @@ const TeamContact = () => {
         </h1>
         <p className="font-thin text-lg py-4">Join the future of work today.</p>
         <div className="py-2 flex  gap-2">
-          <button className="bg-[#0E93E8] px-5  md:px-6 flex  gap-2 items-center rounded-xl ">
+          <Link className="bg-[#0E93E8] px-5  md:px-6 flex  gap-2 items-center rounded-xl ">
             <p className="text-white text-xs sm:text-base">Invest from $100</p>
             <img src="/arrow.svg" alt="" className="h-[16px] " />
-          </button>
-          <button className="border border-[#0E93E8] text-[#0E93E8] px-5 py-1.5 md:px-3 text-xs sm:text-base  rounded-xl">
+          </Link>
+          <Link className="border border-[#0E93E8] text-[#0E93E8] px-5 py-1.5 md:px-3 text-xs sm:text-base  rounded-xl">
             Watch Video 3
-          </button>
+          </Link>
         </div>
       </div>
     </div>

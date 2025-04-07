@@ -3,7 +3,7 @@ import { Globe, Users, Target } from "lucide-react"; // Optional if you use Luci
 
 const MissionVisionSection = () => {
   return (
-    <section className="bg-gray-50 ">
+    <section id="mission" className="bg-gray-50 ">
       <div
         className=" px-6 py-12 max-w-5xl mx-auto
     text-gray-800"

@@ -61,7 +61,7 @@ const ContactJoinComponent = () => {
   };
 
   return (
-    <div className=" bg-[#333333] text-white">
+    <div id="contact" className=" bg-[#333333] text-white">
       <div className="max-w-5xl mx-auto py-12 px-6 flex flex-col md:flex-row justify-between w-full gap-6">
         {/* Left Section */}
         <div className="w-full md:w-1/3 flex flex-col justify-center">
