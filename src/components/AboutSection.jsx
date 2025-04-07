@@ -33,7 +33,7 @@ const AboutSection = () => {
         {/* Image */}
         <div className="md:w-1/2">
           <img
-            src="/public/about_1.svg"
+            src="/about_1.svg"
             alt="Startup team"
             className="w-full rounded-md border-4 border-blue-300"
           />
@@ -58,7 +58,7 @@ const AboutSection = () => {
         {/* Image */}
         <div className="md:w-1/2">
           <img
-            src="/public/about_2.svg"
+            src="/about_2.svg"
             alt="Laptop with code"
             className="w-full rounded-md"
           />
