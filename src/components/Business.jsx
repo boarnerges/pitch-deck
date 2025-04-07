@@ -33,7 +33,7 @@ const Business = () => {
   const technology = [
     {
       type: "Customer Segment",
-      avatar: "/logo/customer.svg",
+      avatar: "/logo/Customer.svg",
 
       description:
         "SMEs, resources (employees, consultants, influencers), affiliates.",
