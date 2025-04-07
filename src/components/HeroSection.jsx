@@ -47,7 +47,7 @@ const HeroSection = () => {
 
       <div className="flex">
         {/* Left Content */}
-        <div className="flex-1 pt-12 px-6 flex flex-col">
+        <div className="pt-12 px-6 flex flex-col">
           {/* Top navigation */}
           <nav className="mb-4">
             <ul className="flex space-x-2 text-[9px] lg:text-[8px]">
@@ -66,7 +66,7 @@ const HeroSection = () => {
               The World 1st
             </h2>
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              Staff Sharing Platform
+              Staff Sharing <br /> Platform
             </h1>
 
             <div className="text-gray-600 mb-3">
@@ -97,7 +97,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="hidden flex-2 lg:block max-w-3xl">
+        <div className="hidden flex-2 lg:block">
           <img src="/Heropic.svg" alt="Hero Section" className="" />
         </div>
       </div>
