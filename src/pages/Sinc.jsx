@@ -1,6 +1,6 @@
 import React from "react";
 import SincHero from "../components/SincHero";
-import SincBar from "../components/sincbar";
+import SincBar from "../components/SincBar";
 import AboutSection from "../components/AboutSection";
 import MissionVisionSection from "../components/MissionVisionSection";
 import MembershipCommitment from "../components/MembershipCommitment";
