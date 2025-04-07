@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -75,7 +76,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex space-x-4 mt-4">
-              <button className="bg-blue-500 text-xs text-white px-3 py-1 rounded-xl flex items-center">
+              <Link className="bg-blue-500 text-xs text-white px-3 py-1 rounded-xl flex items-center cursor-pointer ">
                 Invest from $100
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,10 +90,10 @@ const HeroSection = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </button>
-              <button className="border border-gray-300 text-gray-600 px-6 py-1 rounded-xl">
+              </Link>
+              <Link className="border border-gray-300 text-gray-600 px-6 py-1 rounded-xl">
                 Watch Video 1
-              </button>
+              </Link>
             </div>
           </div>
         </div>
