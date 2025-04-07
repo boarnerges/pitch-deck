@@ -57,7 +57,7 @@ const Traction = () => {
             <div className="  py-4 flex align-center gap-2 ">
               <img
                 className="h-[40px] w-[40px]"
-                src="./public/logo/compliance.svg"
+                src="/logo/compliance.svg"
                 alt="avatar"
               />
               <div>
@@ -76,40 +76,24 @@ const Traction = () => {
             <div className="bg-[#5D9CEC1A] rounded-lg shadow-lg p-4">
               <h3 className="py-2 text-[#0E93E8]">Next Steps</h3>
               <div className="flex items-center gap-4  pt-2 ">
-                <img
-                  src="./public/dot.svg"
-                  className="h-[8px] w-[8px]"
-                  alt=""
-                />
+                <img src="/dot.svg" className="h-[8px] w-[8px]" alt="" />
                 <p className="font-thin text-xs ">
                   Complete platform development
                 </p>
               </div>
               <div className="flex items-center gap-4  pt-2 ">
-                <img
-                  src="./public/dot.svg"
-                  className="h-[8px] w-[8px]"
-                  alt=""
-                />
+                <img src="/dot.svg" className="h-[8px] w-[8px]" alt="" />
                 <p className="font-thin text-xs ">Launch beta testing phase</p>
               </div>
 
               <div className="flex items-center gap-4  pt-2 ">
-                <img
-                  src="./public/dot.svg"
-                  className="h-[8px] w-[8px]"
-                  alt=""
-                />
+                <img src="/dot.svg" className="h-[8px] w-[8px]" alt="" />
                 <p className="font-thin text-xs ">
                   Secure strategic partnerships
                 </p>
               </div>
               <div className="flex items-center gap-4  pt-2 ">
-                <img
-                  src="./public/dot.svg"
-                  className="h-[8px] w-[8px]"
-                  alt=""
-                />
+                <img src="/dot.svg" className="h-[8px] w-[8px]" alt="" />
                 <p className="font-thin text-xs ">
                   Scale operations nationally
                 </p>

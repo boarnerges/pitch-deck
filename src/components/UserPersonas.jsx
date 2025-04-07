@@ -11,7 +11,7 @@ const UserPersonas = () => {
         "Needs to get employed plus having a minimum salary expectation but most companies do not see having a legal officer in-house as essential based on budget constraints.",
       value:
         "Based on the Virtualizing model, Ibrahim can get hired by multiple companies as they can afford a piece of his salary expectations.",
-      avatar: "./public/avatar/ibrahim.svg",
+      avatar: "/avatar/ibrahim.svg",
     },
     {
       name: "Lucy",
@@ -21,7 +21,7 @@ const UserPersonas = () => {
         "Needs diverse talent but has budget constraints, limiting her hiring options.",
       value:
         "Allows the company to hire top talent that can get the job done by taking slots of 2hrs based on what the budget can take.",
-      avatar: "./public/avatar/lucy.svg",
+      avatar: "/avatar/lucy.svg",
     },
   ];
   return (

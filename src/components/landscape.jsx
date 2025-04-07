@@ -28,7 +28,7 @@ const Landscape = () => {
   const competitors = [
     {
       title: "Direct Competitors ",
-      logo: "./public/logo/Customer.svg",
+      logo: "/logo/Customer.svg",
 
       item: [
         {
@@ -43,7 +43,7 @@ const Landscape = () => {
     },
     {
       title: "Indirect Competitors ",
-      logo: "./public/logo/strengths.svg",
+      logo: "/logo/strengths.svg",
 
       item: [
         {
@@ -102,7 +102,7 @@ const Landscape = () => {
           <div className="flex py-3 items-center gap-2">
             <img
               className="h-[48px] w-[48px]"
-              src="./public/logo/strengths.svg"
+              src="/logo/strengths.svg"
               alt="logo"
             />
             <h3 className="font-medium">Frontlett's Advantage</h3>

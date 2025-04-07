@@ -5,19 +5,19 @@ const Contact = () => {
     {
       title: "Email",
       description: "hello@sincpartners.com",
-      logo: "./public/logo/competitors.svg",
+      logo: "/logo/competitors.svg",
     },
 
     {
       title: "Direct Line (Phone/WhatsApp)",
       description: "+234-704-120-0171",
-      logo: "./public/logo/entrants.svg",
+      logo: "/logo/entrants.svg",
     },
 
     {
       title: "Social Media",
       description: "@frontlett on Facebook, X, Instagram.",
-      logo: "./public/logo/suppliers.svg",
+      logo: "/logo/suppliers.svg",
     },
   ];
   return (

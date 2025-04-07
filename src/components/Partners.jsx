@@ -5,24 +5,24 @@ const Partners = () => {
     {
       title: "Access to emerging talent",
 
-      logo: "./public/partner/miva.svg",
+      logo: "/partner/miva.svg",
     },
 
     {
       title: "HR and Operations software solutions",
 
-      logo: "./public/partner/zoho.svg",
+      logo: "/partner/zoho.svg",
     },
 
     {
       title: "Skilled graduate partnerships",
 
-      logo: "./public/partner/wigwe.svg",
+      logo: "/partner/wigwe.svg",
     },
     {
       title: "Upskillig and career services",
 
-      logo: "./public/partner/stutern.svg",
+      logo: "/partner/stutern.svg",
     },
   ];
   return (

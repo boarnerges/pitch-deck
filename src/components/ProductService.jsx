@@ -4,32 +4,32 @@ import Dash from "./Dash";
 const ProductService = () => {
   const products = [
     {
-      logo: "./public/logo/sharing.svg",
+      logo: "/logo/sharing.svg",
       service: "Staff Sharing & Resource Sharing",
       description:
         "Flexible, time-slot hiring for employees, consultants, and influencers.",
     },
 
     {
-      logo: "./public/logo/hr.svg",
+      logo: "/logo/hr.svg",
       service: "HR Consultancy",
       description: "Expert HR support for your business needs.",
     },
 
     {
-      logo: "./public/logo/training.svg",
+      logo: "/logo/training.svg",
       service: "Training Services",
       description: "Professional development and upskilling opportunities.",
     },
 
     {
-      logo: "./public/logo/device.svg",
+      logo: "/logo/device.svg",
       service: "Device Acquisition Services",
       description: "Access to hardware/software for job readiness.",
     },
 
     {
-      logo: "./public/logo/loan.svg",
+      logo: "/logo/loan.svg",
       service: "Loan Services",
       description: "Financial support for resources.",
     },

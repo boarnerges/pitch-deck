@@ -6,25 +6,25 @@ const Team = () => {
     {
       name: "Daniel Oratokhai",
       role: "CEO",
-      image: "./public/images/placeholder.svg",
+      image: "/images/placeholder.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
     {
       name: "David Ker",
       role: "Multimedia Head",
-      image: "./public//images/placeholder.svg",
+      image: "//images/placeholder.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
     {
       name: "Victor Adams",
       role: "CMO",
-      image: "./public/images/placeholder.svg",
+      image: "/images/placeholder.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
     {
       name: "David Efetobor",
       role: "Technical Lead",
-      image: "./public/images/placeholder.svg",
+      image: "/images/placeholder.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
   ];
@@ -33,13 +33,13 @@ const Team = () => {
     {
       name: "David Omoiqui",
       role: "Business Strategy",
-      image: "./public/images/advicer.svg",
+      image: "/images/advicer.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
     {
       name: "Bar Akin Sanda",
       role: "Legal & Regulatory",
-      image: "./public/images/advicer.svg",
+      image: "/images/advicer.svg",
       social: { linkedin: "#", x: "#", facebook: "#", instagram: "#" },
     },
   ];
@@ -56,16 +56,16 @@ const Team = () => {
         <p className="text-xl font-thin text-blue-300">{role}</p>
         <div className="flex justify-center space-x-3 mt-3 text-gray-500">
           <a href={social.linkedin} className="hover:text-blue-700">
-            <img src="./public/socials/linkedin.svg" alt="linkedin" />
+            <img src="/socials/linkedin.svg" alt="linkedin" />
           </a>
           <a href={social.x} className="hover:text-blue-700">
-            <img src="./public/socials/twitter.svg" alt="twitter" />
+            <img src="/socials/twitter.svg" alt="twitter" />
           </a>
           <a href={social.facebook} className="hover:text-blue-700">
-            <img src="./public/socials/facebook.svg" alt="" />
+            <img src="/socials/facebook.svg" alt="" />
           </a>
           <a href={social.instagram} className="hover:text-blue-700">
-            <img src="./public/socials/instagram.svg" alt="" />
+            <img src="/socials/instagram.svg" alt="" />
           </a>
         </div>
       </div>

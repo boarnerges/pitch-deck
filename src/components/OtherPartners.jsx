@@ -5,29 +5,29 @@ const OtherPartners = () => {
     {
       title: "HR Partners",
       description: "Talent acquisition and HR compiliance",
-      logo: "./public/logo/acquisition.svg",
+      logo: "/logo/acquisition.svg",
     },
 
     {
       title: "Hardware Partners",
       description: "Device and software support",
-      logo: "./public/logo/hardware.svg",
+      logo: "/logo/hardware.svg",
     },
 
     {
       title: "Banking & Fintech Partners",
       description: "Financial services and payroll.",
-      logo: "./public/logo/fintech.svg",
+      logo: "/logo/fintech.svg",
     },
     {
       title: "BNPL Partners",
       description: "Payment options for employers.",
-      logo: "./public/logo/percentage.svg",
+      logo: "/logo/percentage.svg",
     },
     {
       title: "Training & University Partners",
       description: "Access to trained resources.",
-      logo: "./public/logo/university.svg",
+      logo: "/logo/university.svg",
     },
   ];
   return (

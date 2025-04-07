@@ -5,29 +5,29 @@ const Forces = () => {
     {
       title: "Competitive Rivalry",
       description: "Medium to high competion",
-      logo: "./public/logo/competitors.svg",
+      logo: "/logo/competitors.svg",
     },
 
     {
       title: "Threat of New Entrants",
       description: "Moderate threat",
-      logo: "./public/logo/entrants.svg",
+      logo: "/logo/entrants.svg",
     },
 
     {
       title: "Bargaining Power of Suppliers",
       description: "Low.",
-      logo: "./public/logo/suppliers.svg",
+      logo: "/logo/suppliers.svg",
     },
     {
       title: "Bargaining Power of Buyers",
       description: "Medium.",
-      logo: "./public/logo/buyers.svg",
+      logo: "/logo/buyers.svg",
     },
     {
       title: "Threat of Substitutes",
       description: "Low.",
-      logo: "./public/logo/substitutes.svg",
+      logo: "/logo/substitutes.svg",
     },
   ];
   return (

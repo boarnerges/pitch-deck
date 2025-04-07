@@ -5,7 +5,7 @@ const Swot = () => {
   const swot = [
     {
       title: "Strengths ",
-      logo: "./public/logo/strengths.svg",
+      logo: "/logo/strengths.svg",
       color: "bg-blue-400",
       border: "border-blue-400",
 
@@ -18,7 +18,7 @@ const Swot = () => {
 
     {
       title: "Weaknesses ",
-      logo: "./public/logo/weaknesses.svg",
+      logo: "/logo/weaknesses.svg",
       color: "bg-orange-400",
       border: "border-orange-400",
       des: [
@@ -30,7 +30,7 @@ const Swot = () => {
 
     {
       title: "Opportunities ",
-      logo: "./public/logo/opportunities.svg",
+      logo: "/logo/opportunities.svg",
       color: "bg-green-400",
       border: "border-green-400",
       des: [
@@ -42,7 +42,7 @@ const Swot = () => {
 
     {
       title: "Threats ",
-      logo: "./public/logo/threats.svg",
+      logo: "/logo/threats.svg",
       color: "bg-red-400",
       border: "border-red-400",
       des: [

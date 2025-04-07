@@ -24,10 +24,10 @@ const SincHero = () => {
           </a>
         </div>
         <div className="absolute top-2 left-[60%] text-xs text-white">
-          <img src="./public/dot-arrow.svg" alt="dots" />
+          <img src="/dot-arrow.svg" alt="dots" />
         </div>
         <div className="absolute bottom-10 left-[40%] text-xs text-white ">
-          <img className="" src="./public/dot-arrow.svg" alt="dots" />
+          <img className="" src="/dot-arrow.svg" alt="dots" />
         </div>
       </div>
     </div>

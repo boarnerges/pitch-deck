@@ -95,11 +95,7 @@ const Business = () => {
             <div className="py-2">
               {mdel.des.map((mdl, index) => (
                 <div key={index} className="flex items-center gap-4  pt-2 ">
-                  <img
-                    src="./public/dot.svg"
-                    className="h-[8px] w-[8px]"
-                    alt=""
-                  />
+                  <img src="/dot.svg" className="h-[8px] w-[8px]" alt="" />
                   <p className="font-thin text-xs ">{mdl}</p>
                 </div>
               ))}

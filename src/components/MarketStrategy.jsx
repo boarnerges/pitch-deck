@@ -6,28 +6,28 @@ const MarketStrategy = () => {
     {
       title: "Invite-Only Model ",
       tag: "First year, invite-only for exclusivity",
-      logo: "./public/logo/invite.svg",
+      logo: "/logo/invite.svg",
       description:
         "Creating a sense of exclusivity and premium value with a controlled rollout to select clients and resources.",
     },
     {
       title: "Strategic Partnerships ",
       tag: "Universities, HR consultants, training providers",
-      logo: "./public/logo/partnership.svg",
+      logo: "/logo/partnership.svg",
       description:
         "Collaborating with educational institutions, HR professionals, and training organizations to expand our reach.",
     },
     {
       title: "Digital Marketing ",
       tag: "Social media, targeted campaigns",
-      logo: "./public/logo/marketing.svg",
+      logo: "/logo/marketing.svg",
       description:
         "Implementing strategic digital marketing initiatives to reach our target audience efficiently.",
     },
     {
       title: "Community Building ",
       tag: "Engaged network of users and partners",
-      logo: "./public/logo/community.svg",
+      logo: "/logo/community.svg",
       description:
         "Fostering a vibrant community of companies and resources to drive organic growth and referrals.",
     },
