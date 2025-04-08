@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, Links, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -107,9 +107,10 @@ const Navbar = () => {
           </div>
 
           {/* Right Section - Button */}
-          <button className="bg-[#0E93E8] hidden sm:block text-white px-4 py-2 rounded-lg text-[12px] lg:text-sm xl:text-base">
+
+          <NavLink className="bg-[#0E93E8] hidden sm:block text-white px-4 py-2 rounded-lg text-[12px] lg:text-sm xl:text-base">
             Invest/Support
-          </button>
+          </NavLink>
         </div>
       </div>
     </nav>
